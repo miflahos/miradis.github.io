@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+		background:url(images/background.jpg);
+		-moz-background-size:100%;
+		-webkit-background-size:100%;
+		-o-background-size:100%;
+		background-size:100%;
+        }
+        nav {
+            width: 60%;
+            height: 50px;
+            background: url(images/backgroundout.jpg) no-repeat;
+            position: absolute;
+            -moz-background-size:100%;
+		    -webkit-background-size:100%;
+		    -o-background-size:100%;
+		    background-size:100%;
+            border: solid 1px MediumBlue;
+            margin-left: 25%;
+        }
+        nav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        nav a:hover {
+        background-color: #ddd;
+        color: grey;
+        }
+        nav a.active {
+        background-color: MidnightBlue;
+        color: white;
+        }
+        .content {
+            width: 20%;
+            height: 480px;
+            float: left;
+            background-color: DodgerBlue;
+        }
+        .hub {
+            width: 60%;
+            height: 480px;
+            margin-left: 25%;
+            margin-top: 10%;
+        }
+        .img1 {
+            width: 70%;
+            height: 480px;
+            float: left;
+        }
+        .img1 img{
+            width: 100%;
+            height: 100%;
+        }
+        .img1:hover img{
+            transform: scale(1.1);
+        }
+        .win1 {
+            width: 100%;
+            height: 20%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            justify-content: space-around;
+        }
+        .win2 {
+            width: 100%;
+            height: 25%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .im1 {
+            width: 90%;
+            height: 90%;
+            margin-left: 10px;
+
+        }
+        .im2 {
+            width: 100%;
+            height: 80%;
+            border: solid 1px ;
+        }
+        .im3 {
+            width: 95%;
+            height: 95%;
+            border: solid 1px ;
+        }
+        .block1 {
+            width: 30%;
+            height: 480px ;
+            float: right;
+            background-image: url(images/back1.jpg);
+        }
+        .txt1 {
+            width:100%;
+            height:50%;
+            margin-left: 30px;
+        }
+        .c1 {
+            color: Gainsboro;
+            font-size: 35px;
+            text-align: center;
+        }
+        .mr {
+            color: Gainsboro;
+            font-size: 35px;
+            margin-left: 25%;
+            margin-top: 3%;
+        }
+        .c2 {
+            color: gainsboro;
+            font-size: 20px;
+            text-align: left;
+        }
+        li {
+            font-size: 15px;
+            color: Gainsboro;
+            margin: 10px;
+        }
+        footer {
+            width: 100%;
+            height: 100px;
+            background-color: RoyalBlue;
+            margin-top: 100px;
+        }
+        .bi1 {
+            width: 10%;
+            height: 100%;
+            float: left;
+        }
+        .logo {
+            width: 60%;
+            height: 50px;
+            margin-left: 25%;
+            padding: 10px 0px;            
+        }
+        a {
+            color: gainsboro;
+            text-decoration: none;
+        }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <img class="bi1" src="images/backimage.jpg" width="100%" height="100%">
+            <a class="active" href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/main.html">Главная</a>
+            <a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.html">Регистрация</a>
+            <a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%94%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE.html">Вход</a>
+        </nav>
+        <br>
+        <h1 class="mr">Популярное</h1>
+    <div class="hub" >
+        <div class="img1"><a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Witcher%203.html"><img src="images//Witcher 3/game1back.png" width="100%" height="100%"></a>
+        </div>
+        <div class="block1">
+            <div class="txt">
+            <h1 class="c1"><a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Witcher%203.html"> The Witcher® 3: Wild Hunt</a></h1>
+            <p class="c2">Когда в Северных королевствах бушует война, вы заключаете величайший контракт своей жизни — отыскать Дитя предназначения, живое оружие, которое может изменить облик мира.</p>
+            </div>
+            <div class="win1">
+            <div class="im1"><img src="images//Witcher 3/im1.jpg" width="100%" height="100%"></div>
+            <div class="im1"><img src="images//Witcher 3/im2.jpg" width="100%" height="100%"></div>
+            <div class="im1"><img src="images//Witcher 3/im3.png" width="100%" height="100%"></div>
+            <div class="im1"><img src="images//Witcher 3/im5.jpg" width="100%" height="100%"></div>
+            </div>
+        </div>
+    </div><!--Hub1-->
+    <div class="hub">
+        <div class="img1"><a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Bioshiock%20site.html"><img src="images/Bioshock/game1back.jpg" width="100%" height="100%"></a>
+        </div>
+        <div class="block1">
+            <div class="txt">
+            <h1 class="c1"><a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Bioshiock%20site.html"> BioShock Infinite</a></h1>
+            <p class="c2">
+                В долгу перед неправильными людьми, поскольку он был на грани жизни, ветеран американской кавалерии и теперь нанял ружье, Букер ДеВитт имеет только одну возможность вытереть свой планшет. Он должен спасти Элизабет, загадочную девушку, заключенную в тюрьму с детства и запертую в летающем городе Колумбия.</p>
+            </div>
+            <div class="win2">
+            <div class="im2"><img src="images/Bioshock/im1.jpg" width="100%" height="100%"></div>
+            <div class="im2"><img src="images/Bioshock/im2.jpg" width="100%" height="100%"></div>
+            <div class="im2"><img src="images/Bioshock/im3.jpg" width="100%" height="100%"></div>
+            </div>
+        </div>
+    </div><!--Hub2-->
+    <div class="hub">
+        <div class="img1"><a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/dmc%205%20site.html"><img src="images/Dmc 5/game1back.jpg" width="100%" height="100%"></a>
+        </div>
+        <div class="block1">
+            <div class="txt">
+            <h1 class="c1">Devil May Cry 5</h1>
+            <p class="c2">
+                Лучший охотник на демонов возвращается в новом стильном боевике.</p>
+            </div>
+            <div class="win1">
+            <div class="im3"><img src="images/Dmc 5/im1.png" width="100%" height="100%"></div>
+            <div class="im3"><img src="images/Dmc 5/im2.jpg" width="100%" height="100%"></div>
+            <div class="im3"><img src="images/Dmc 5/im3.jpg" width="100%" height="100%"></div>
+            <div class="im3"><img src="images/Dmc 5/im4.jpg" width="100%" height="100%"></div>
+            </div>
+        </div>
+    </div><!--Hub3-->
+    <br>
+    <footer>
+        <div class="logo">
+        <img class="bi1" src="images/backimage.jpg" width="100%" height="100%">
+        <br>
+        <br>
+        <p class="c2">Все права защищены</p>
+    </footer>
+    </body>
+</html>
