@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+		background:url(images/background.jpg);
+		-moz-background-size:100%;
+		-webkit-background-size:100%;
+		-o-background-size:100%;
+		background-size:100%;
+        }
+        nav {
+            width: 60%;
+            height: 50px;
+            background: url(images/backgroundout.jpg) no-repeat;
+            -moz-background-size:100%;
+		    -webkit-background-size:100%;
+		    -o-background-size:100%;
+		    background-size:100%;
+            border: solid 1px MediumBlue;
+            margin-left: 25%;
+        }
+        nav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 15px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        nav a:hover {
+        background-color: #ddd;
+        color: grey;
+        }
+        nav a.active {
+        background-color: MidnightBlue;
+        color: white;
+        }
+        .content {
+            width: 40%;
+            height: 600px;
+            background-color: MidnightBlue;
+            -moz-background-size:100%;
+		    -webkit-background-size:100%;
+		    -o-background-size:100%;
+		    background-size:100%;
+            border: solid 1px Navy;
+            margin-left: 25%;
+        }
+        .c3 {
+            color: Gainsboro;
+            font-size: 25px;
+            text-align: left;
+        }
+        input {
+            width: 50%;
+            height: 30px;
+            background-color: DarkSlateGray;
+        }
+        .c1 {
+            color: Gainsboro;
+            font-size: 15px;
+            text-align: left;
+        }
+        label {
+            color: AntiqueWhite;
+            font-size: 20px;
+        }
+        select {
+            width: 50%;
+            height: 30px;
+            background-color: DarkSlateGray;
+        }
+        option {
+            width: 50%;
+            height: 30px;
+            background-color: DarkSlateGray;
+        }
+        .but1 {
+            width: 18%;
+            height: 40px;
+            background-color: CornflowerBlue;
+            margin-top: 92px;
+            margin-left: 5px;
+        }
+        .but1 a {
+            float: left;
+            text-align: center;
+            color: Blue;
+            padding: 10px 23px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        .but1 a:hover {
+            color: GhostWhite;
+            background-color: DodgerBlue;
+        }
+        .bi1 {
+            width: 10%;
+            height: 100%;
+            float: left;
+        }
+        footer {
+            width: 100%;
+            height: 110px;
+            background-color: RoyalBlue;
+            margin-top: 8%;
+        }
+        .logo {
+            width: 60%;
+            height: 50px;
+            margin-left: 25%;
+            padding: 10px 0px;            
+        }
+        .c3 {
+            color: gainsboro;
+            font-size: 20px;
+            text-align: left;
+        }
+        .bi1 {
+            width: 10%;
+            height: 100%;
+            float: left;
+        }
+    </style>
+    </head>
+<body>
+    <nav>
+        <img class="bi1" src="images/backimage.jpg" width="100%" height="100%">
+        <a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/main.html">Главная</a>
+        <a class="active" href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.html">Регистрация</a>
+        <a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%94%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE.html">Вход</a>
+        </nav>
+        <br>
+    <div class="content">
+        <h1 class="c3">СОЗДАНИЕ АККАУНТА</h1>
+        <form>
+            <div>
+             <label> АДРЕС ЭЛ. ПОЧТЫ:</label>
+             <br>
+             <input type="text" name="e-mail" placeholder="ЭЛ.ПОЧТА">
+             <p class="c1">Адрес электронной почты используется для подтверждения покупок и помощи в управлении доступом к вашему аккаунту</p>
+             </div>
+             <div>
+             <label> ПОДТВЕРДИТЕ АДРЕС ЭЛ. ПОЧТЫ:</label>
+             <br>
+             <input type="text" name="code" placeholder="КОД">
+             <p class="c1">Письмо с подтверждением на указанный адрес электронной почты. Чтобы подтвердить адрес, перейдите по ссылке в сообщении.</p>
+             </div>
+             <div> 
+                <label> Страна:</label>
+                <select>
+                    <option> Казахстан </option>
+                    <option> Россия </option>
+                    <option> Киргизстан </option>
+                    <option>Азербайджан</option>
+                    <option>Киатй</option>
+                    <option>Япония</option>
+                    <option>Велкобритания</option>
+                    <option>Франция</option>
+                    <option>Германия</option>
+                    <option>Украина</option>
+                    <option>Беларуссия</option>
+                </select>
+            </div>
+             </form>
+             <div class="but1"><a href="file:///C:/Users/ww/Desktop/%D0%BF%D1%80%D0%BE%D0%B3%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%BE%D1%88%D0%B8%D0%B1%D0%BA%D0%B0%D1%80%D0%B5%D0%B3.html">Продолжить</a></div>
+    </div>
+    <br>
+        <footer>
+            <div class="logo">
+            <img class="bi1" src="images/backimage.jpg" width="100%" height="100%">
+            <br>
+            <br>
+            <p class="c3">Все права защищены</p>
+        </footer>
+</body>
+</html>
